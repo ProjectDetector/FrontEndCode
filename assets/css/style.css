@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap');
+
+/*Main heading*/
+#heading{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+/*Button get started*/
+#buttonstart{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 92, 92);
+    border-radius: 30px ;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    transition: all 1s;
+    border-color: rgb(255, 92, 92);
+}
+
+#buttonstart:hover{
+    transform: scale(1.1) ;
+}
+
+/*Modal button*/
+#buttonstart1{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px ;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    transition: all 1s;
+    border-color: black;
+}
+
+/*Navbar*/
+#navv{
+    background-color: black;
+    color: white;
+
+}
+
+/*About*/
+#about{
+    margin-top: 80px;
+}
+
+/*content about*/
+#blehh{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/*Search*/
+#search{
+    margin-top: 80px;
+}
+
+/*Location*/
+#location{
+    margin-top: 80px;
+    font-size: 50px;
+    color: rgb(255, 92, 92);
+    
+}
+
+/*Contact session*/
+#contact{
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
+/*Upload section*/
+#upload{
+    margin-top: 50px;
+}
+
+#uploadchange{
+    background-color: rgb(255, 92, 92);
+    margin-top: 50px;
+}
+#buttonstart3{
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px ;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    transition: all 1s;
+    border-color: black;
+    margin-bottom: 50px;
+}
+
+#upp{
+    font-size: 50px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-top: 80px;
+    color: white;
+}
+
+
+/*Media queries*/
+@media screen and (max-width : 740px) {
+    #heading{
+        margin-top: auto;
+
+    }
+}
+@media screen and (min-width : 980px) {
+    #home{
+        margin-top: 120px;
+    }
+    #searchicon{
+        margin-top: 80px;
+        
+    }
+}
