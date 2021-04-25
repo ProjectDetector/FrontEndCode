@@ -109,6 +109,11 @@
     color: white;
 }
 
+/*Search input*/
+#eemail, #locaa{
+    border-radius: 20px;
+    height: 60px;
+}
 
 /*Media queries*/
 @media screen and (max-width : 740px) {
