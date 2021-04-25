@@ -97,7 +97,7 @@
                             </div>
                             <!--Modal Body-->
                             <div class="modal-body">
-                                <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeFwqk816lrCbldc_RcfmNrJ4X_Xa9BWOM6vKeck_jP8yJG7g/formResponse" target="google.com" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="7" data-is-first-page="true">
+                                <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeFwqk816lrCbldc_RcfmNrJ4X_Xa9BWOM6vKeck_jP8yJG7g/formResponse" target="_blank" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="7" data-is-first-page="true">
                                     <div class="form-row">
                                         <!--Name-->
                                         <div class="form-group col-sm-12" style="margin-bottom:20px;">
@@ -144,7 +144,7 @@
                                     </div>
                                      <!--Buttons-->
                                      <div class="form-row">
-                                         <button type="submit" id="buttonstart" class=" btn-sm ml-1" data-dismiss="modal">Sign in</button>
+                                         <button type="submit" id="buttonstart" class=" btn-sm ml-1" data-dismiss="modal">Register</button>
                                     </div>
                                 </form>
                             </div>
@@ -185,9 +185,9 @@
 
                             <div class="col-md-6" style="background-color:black;border-radius: 30px; padding: 0px 20px 20px 20px;">
                                 <p id="location"> Vehicle got lost?</p>
-                                <input class="form-group col-sm-12" style="border-radius: 20px; height: 60px;" type="text" placeholder="Enter your Email Address" required>
-                                <input class="form-group col-sm-12" style="border-radius: 20px; height: 60px;" type="text" placeholder="Enter your Location" required>
-                                <button type="submit" id="buttonstart">Find</button>
+                                <input id="eemail" name="email" class="form-group col-sm-12"  type="email" placeholder="Enter your Email Address" required>
+                                <input id="locaa" name="location" class="form-group col-sm-12" type="text" placeholder="Enter your Location" required>
+                                <button type="submit" id="buttonstart" onclick="fetchInfo()">Find</button>
                             </div>
                         </div>
                     </div>
