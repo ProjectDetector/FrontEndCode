@@ -1,0 +1,25 @@
+{
+  "name": "vehicle-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.00",
+    "googleapis": "^72.0.0",
+    "jquery": "^3.3.1",
+    "lite": "^4.0.5",
+    "popper.js": "^1.12.9",
+    "save": "^2.4.0",
+    "server": "^1.0.32"
+  },
+  "devDependencies": {
+    "lite-server": "2.3"
+  }
+}
