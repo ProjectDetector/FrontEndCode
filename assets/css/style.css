@@ -17,7 +17,7 @@
     background-color: rgb(255, 92, 92);
     border-radius: 30px ;
     outline: none;
-    color: white;
+    color: white !important;
     font-size: 20px;
     margin-top: 25px;
     transition: all 1s;
@@ -115,11 +115,24 @@
     height: 60px;
 }
 
+/*Response*/
+#response{
+    margin-top: 200px;
+}
+
+
 /*Media queries*/
 @media screen and (max-width : 740px) {
     #heading{
         margin-top: auto;
 
+    }
+    #alter{
+        width: 300px;
+        height: 200px;
+    }
+    #alter2{
+        width: 300px;
     }
 }
 @media screen and (min-width : 980px) {
