@@ -8,7 +8,8 @@ function fetchInfo(){
 }
    
 
-//Spread sheet
-$.get("https://spreadsheets.google.com/feeds/cells/1URQBjLmkRkPxI1RGQFpp_ZxUa1xMcoMth3qmWH9DK2Y/og38pvz/public/basic?alt=json", function(data){
-    console.log(data);
-})
+function datee(){
+    var d = new Date();
+    var b = d.getFullYear()+"-"+("0" + d.getMonth()).slice(-2)+"-"+("0" +d.getDate()).slice(-2) ;
+    document.getElementById('locaa').setAttribute("max",b);
+}
