@@ -26,6 +26,13 @@
     </head>
     
     <body>
+
+        <!--After filling form this window will appear-->
+        <script type="text/javascript">var submitted=false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='search.html';}"></iframe>
+        <iframe name="hidden_iframe1" id="hidden_iframe1" style="display: none" onload="if(submitted){window.location='registered.html';}"></iframe>
+        
+        
         <!-- Nav bar-->
         <!--Header nav-->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navv">
@@ -73,7 +80,7 @@
                          <div class="row">
                              <div class="col-2 col-sm-2 offset-2 offset-sm-2">
                                  <button id="buttonstart" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                        Get Started
+                                        Register
                                 </button>
                             </div>
                          </div>
@@ -97,7 +104,7 @@
                             </div>
                             <!--Modal Body-->
                             <div class="modal-body">
-                                <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeFwqk816lrCbldc_RcfmNrJ4X_Xa9BWOM6vKeck_jP8yJG7g/formResponse" target="_blank" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="7" data-is-first-page="true">
+                                <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeFwqk816lrCbldc_RcfmNrJ4X_Xa9BWOM6vKeck_jP8yJG7g/formResponse" method="POST" target="hidden_iframe1" onsubmit="submitted=true" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="7" data-is-first-page="true">
                                     <div class="form-row">
                                         <!--Name-->
                                         <div class="form-group col-sm-12" style="margin-bottom:20px;">
@@ -185,10 +192,14 @@
 
                             <div class="col-md-6" style="background-color:black;border-radius: 30px; padding: 0px 20px 20px 20px;">
                                 <p id="location"> Vehicle got lost?</p>
-                                 <input id="eemail" name="email" class="form-group col-sm-12"  type="email" placeholder="Enter your Email Address" required>
+                                 
+                                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScD8q6C36NEdkhwuEzOEVQfWSv2mioNyK7FNZ4qEdPsLZNaQg/formResponse"  method="POST" target="hidden_iframe" onsubmit="submitted=true" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="2" data-is-first-page="true">
+                                 <input id="eemail" name="entry.989431506" class="form-group col-sm-12"  type="email" placeholder="Enter your Email Address" required>
                                  <p style="color: white;">When You Lost?</p>
-                                 <input id="locaa" name="location" class="form-group col-sm-12" type="date"  required onclick="datee()">
+                                 <input id="locaa" name="entry.438802586" class="form-group col-sm-12" type="date"  required onclick="datee()">
                                  <button type="submit" id="buttonstart" onclick="fetchInfo()">Find</button>
+                                </form>
+                                
                             </div>
                         </div>
                     </div>
